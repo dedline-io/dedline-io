@@ -10,10 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="Voting-registration-question">
        <Dropdown />
        <Suggestion />
-      </header>
+       </div>
     </div>
   );
 }

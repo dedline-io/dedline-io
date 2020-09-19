@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { geolocated } from "react-geolocated";
 
+import './Suggestion.css';
+
 function Suggestion(props) {
   const reverse = require('reverse-geocode');
   const states = require('us-state-converter')
