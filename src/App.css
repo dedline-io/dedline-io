@@ -9,7 +9,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  /* height: 500px; */
   text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
