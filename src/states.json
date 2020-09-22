@@ -1,19 +1,31 @@
 [
   {
     "label": "Alabama",
-    "value": "AL"
+    "value": "AL",
+    "deadline": "20201019",
+    "url": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
+    "onlineAccepted": true
   },
   {
     "label": "Alaska",
-    "value": "AK"
+    "value": "AK",
+    "deadline": "20201004",
+    "url": "https://voterregistration.alaska.gov/",
+    "onlineAccepted": true
   },
   {
     "label": "Arizona",
-    "value": "AZ"
+    "value": "AZ",
+    "deadline": "20201005",
+    "url": "https://servicearizona.com/VoterRegistration/selectLanguage",
+    "onlineAccepted": true
   },
   {
     "label": "Arkansas",
-    "value": "AR"
+    "value": "AR",
+    "deadline": "20201005",
+    "url":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information",
+    "onlineAccepted": false
   },
   {
     "label": "California",

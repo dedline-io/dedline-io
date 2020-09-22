@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { geolocated } from 'react-geolocated';
 import Select from 'react-select';
-import { selectStyles } from '../utils/styles';
+import { selectStyles } from '../../utils/styles';
+
+import Response from '../Response';
 
 import './Suggestion.css';
 
 function Suggestion(props) {
   const reverse = require('reverse-geocode');
   const states = require('us-state-converter');
-  const dropdownOptions = require('../states.json');
+  const dropdownOptions = require('../../states.json');
   const [userCoords, setUserCoords] = useState(null);
   const [stateAbbr, setStateAbbr] = useState(null);
   const [stateFull, setStateFull] = useState(null);
-
+  const [selectedState, setSelectedState] = useState(false);
   // Grab user location
   useEffect(() => {
     setUserCoords(props.coords);
@@ -33,21 +35,29 @@ function Suggestion(props) {
   }, [stateAbbr])
 
   const onDropdownChange = (state) => {
-     setStateAbbr(state.value);
-     setStateFull(state.full);
+    setStateAbbr(state.value);
+    setStateFull(state.full);
+    setSelectedState(true);
   }
 
   return (
     <div className="Suggestion">
       <header>
-        How much time do I have to register to vote in
+        <div className="vote-question">
+        How much time do I have to register to vote in:
+        </div>
         <Select
           styles={selectStyles}
           options={dropdownOptions}
           value={dropdownOptions.filter(option => option.label === stateFull)}
           onChange={value => onDropdownChange(value)}
         />
-     </header>
+      </header>
+      {selectedState &&
+        <Response
+          selectedState={dropdownOptions.filter(option => option.label === stateFull)}
+        />
+      }
     </div>
   );
 }

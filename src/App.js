@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Suggestion from './Suggestion';
+import Suggestion from './Components/Suggestion';
+import Response from './Components/Response';
 
 function App() {
   const checkGeolocate = 'geolocation' in navigator ? true : false;
@@ -9,9 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Voting-registration-question">
-       <Suggestion />
-       </div>
+      <div className="voting-registration-question">
+        <Suggestion />
+      </div>
     </div>
   );
 }
