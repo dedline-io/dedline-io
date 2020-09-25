@@ -38,7 +38,8 @@ function Suggestion(props) {
     <div className="Suggestion">
       <header>
         <div className="vote-question">
-        How much time do I have to register to vote in:
+       <div className="header-emoji">🗳🗳🗳🗳🗳</div>
+         How much time do I have to register to vote in:
         </div>
         <Select
           styles={selectStyles}
