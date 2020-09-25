@@ -45,6 +45,7 @@ function Suggestion(props) {
           options={dropdownOptions}
           value={dropdownOptions.filter(option => option.value === stateAbbr)}
           onChange={value => onDropdownChange(value)}
+          isSearchable={false}
         />
       </header>
       {selectedState &&
