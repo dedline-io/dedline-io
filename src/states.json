@@ -5,7 +5,8 @@
     "deadline": "20201019",
     "url": "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🪕🪕🪕🪕🪕"
   },
   {
     "label": "Alaska",
@@ -13,7 +14,8 @@
     "deadline": "20201004",
     "url": "https://voterregistration.alaska.gov/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🎣🎣🎣🎣🎣"
   },
   {
     "label": "Arizona",
@@ -21,7 +23,8 @@
     "deadline": "20201005",
     "url": "https://servicearizona.com/VoterRegistration/selectLanguage",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "☀️☀️☀️☀️☀️"
   },
   {
     "label": "Arkansas",
@@ -29,7 +32,8 @@
     "deadline": "20201005",
     "url":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information",
     "onlineAccepted": false,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🦊🦊🦊🦊🦊"
   },
   {
     "label": "California",
@@ -37,7 +41,8 @@
     "deadline": "20201019",
     "url":"https://registertovote.ca.gov/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🥑🥑🥑🥑🥑"
   },
   {
     "label": "Colorado",
@@ -45,7 +50,8 @@
     "deadline": "20201026",
     "url": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html?",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🏔🏔🏔🏔🏔"
   },
   {
     "label": "Connecticut",
@@ -54,7 +60,8 @@
     "url": "https://voterregistration.ct.gov/OLVR/welcome.do",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "For some reason, Connecticut's voter registration website is down every night from midnight until 6AM. So... just know that..."
+    "notes": "For some reason, Connecticut's voter registration website is down every night from midnight until 6AM. So... just know that...",
+    "emoji": "⚓️⚓️⚓️⚓️⚓️"
   },
   {
     "label": "Delaware",
@@ -62,7 +69,8 @@
     "deadline": "20201010",
     "url": "https://elections.delaware.gov/services/voter/placestoregister.shtml",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🍦🍦🍦🍦🍦"
   },
   {
     "label": "District of Columbia",
@@ -71,7 +79,8 @@
     "url": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "In DC, you can pre-register to vote when you're 16 years old! (You can't vote in the 2020 election, but you'll be registered for 2022 and any upcoming elections!"
+    "notes": "In DC, you can pre-register to vote when you're 16 years old! (You can't vote in the 2020 election, but you'll be registered for 2022 and any upcoming elections!)",
+    "emoji": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸"
   },
   {
     "label": "Florida",
@@ -79,7 +88,8 @@
     "deadline": "20201005",
     "url": "https://registertovoteflorida.gov/home",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🐊🐊🐊🐊🐊"
   },
   {
     "label": "Georgia",
@@ -87,7 +97,8 @@
     "deadline": "20201005",
     "url": "https://georgia.gov/register-to-vote",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🍑🍑🍑🍑🍑"
   },
   {
     "label": "Hawaii",
@@ -95,7 +106,8 @@
     "deadline": "20201005",
     "url": "https://olvr.hawaii.gov/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🌈🌈🌈🌈🌈"
   },
   {
     "label": "Idaho",
@@ -103,7 +115,8 @@
     "deadline": "20201009",
     "url": "https://elections.sos.idaho.gov/ElectionLink/ElectionLink/ApplicationInstructions.aspx",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🍟🍟🍟🍟🍟"
   },
   {
     "label": "Illinois",
@@ -111,7 +124,8 @@
     "deadline": "20201018",
     "url": "https://ova.elections.il.gov/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🌭🌭🌭🌭🌭"
   },
   {
     "label": "Indiana",
@@ -119,7 +133,8 @@
     "deadline": "20201005",
     "url": "https://www.in.gov/sos/elections/2403.htm",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🏀🏀🏀🏀🏀"
   },
   {
     "label": "Iowa",
@@ -127,7 +142,8 @@
     "deadline": "20201024",
     "url": "https://mymvd.iowadot.gov/Account/Login?ReturnUrl=%2fVoterRegistration",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🌽🌽🌽🌽🌽"
   },
   {
     "label": "Kansas",
@@ -135,7 +151,8 @@
     "deadline": "20201013",
     "url": "https://www.kdor.ks.gov/apps/voterreg/default.aspx",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🌻🌻🌻🌻🌻"
   },
   {
     "label": "Kentucky",
@@ -144,7 +161,8 @@
     "url": "https://vrsws.sos.ky.gov/ovrweb/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "The deadline for Kentucky is at 4PM on October 5th, so if you're planning to register at 10PM on that day you'll be SOL!"
+    "notes": "The deadline for Kentucky is at 4PM on October 5th, so if you're planning to register at 10PM on that day you'll be SOL!",
+    "emoji": "🍗🍗🍗🍗🍗"
   },
   {
     "label": "Louisiana",
@@ -153,7 +171,8 @@
     "url": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "Night owls: Louisiana's voter registration website is down from 1-4AM daily so plan accordingly! Also, mail-in and in-person registrations are due on the 5th (but online is good 'til the 13th)."
+    "notes": "Night owls: Louisiana's voter registration website is down from 1-4AM daily so plan accordingly! Also, mail-in and in-person registrations are due on the 5th (but online is good 'til the 13th).",
+    "emoji": "🎺🎺🎺🎺🎺"
   },
   {
     "label": "Maine",
@@ -161,7 +180,8 @@
     "deadline": "20201019",
     "url": "https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html",
     "onlineAccepted": false,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🦞🦞🦞🦞🦞"
   },
   {
     "label": "Maryland",
@@ -169,7 +189,8 @@
     "deadline": "20201013",
     "url": "https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🦀🦀🦀🦀🦀"
   },
   {
     "label": "Massachusetts",
@@ -177,7 +198,8 @@
     "deadline": "20201024",
     "url": "https://www.sec.state.ma.us/ovr/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🧬🧬🧬🧬🧬"
   },
   {
     "label": "Michigan",
@@ -185,7 +207,8 @@
     "deadline": "20201019",
     "url": "https://mvic.sos.state.mi.us/RegisterVoter",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🎶🎶🎶🎶🎶"
   },
   {
     "label": "Minnesota",
@@ -193,7 +216,8 @@
     "deadline": "20201013",
     "url": "https://mnvotes.sos.state.mn.us/VoterRegistration/VoterRegistrationMain.aspx",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🚤🚤🚤🚤🚤"
   },
   {
     "label": "Mississippi",
@@ -201,7 +225,8 @@
     "deadline": "20201005",
     "url": "https://www.sos.ms.gov/elections-voting/pages/voter-registration-information.aspx",
     "onlineAccepted": false,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🐚🐚🐚🐚🐚"
   },
   {
     "label": "Missouri",
@@ -209,7 +234,8 @@
     "deadline": "20201007",
     "url": "https://www.sos.mo.gov/elections/goVoteMissouri/register.aspx",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🌼🌼🌼🌼🌼"
   },
   {
     "label": "Montana",
@@ -217,7 +243,8 @@
     "deadline": "20201026",
     "url": "https://sosmt.gov/elections/vote/",
     "onlineAccepted": false,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🐴🐴🐴🐴🐴"
   },
   {
     "label": "Nebraska",
@@ -226,7 +253,8 @@
     "url": "https://www.nebraska.gov/apps-sos-voter-registration/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "The 16th is the online deadline, but you can register in person up until the 23rd!"
+    "notes": "The 16th is the online deadline, but you can register in person up until the 23rd!",
+    "emoji": "🌾🌾🌾🌾🌾"
   },
   {
     "label": "Nevada",
@@ -235,7 +263,8 @@
     "url": "https://www.nvsos.gov/sosvoterservices/Registration/Step0.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "The 29th is the online deadline for Nevada, but the in person/mail in deadline is October 6th!"
+    "notes": "The 29th is the online deadline for Nevada, but the in person/mail in deadline is October 6th!",
+    "emoji": "🎰🎰🎰🎰🎰"
   },
   {
     "label": "New Hampshire",
@@ -243,7 +272,8 @@
     "deadline": "20201021",
     "url": "https://sos.nh.gov/elections/voters/register-to-vote/",
     "onlineAccepted": false,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🌳🌳🌳🌳🌳"
   },
   {
     "label": "New Jersey",
@@ -251,7 +281,8 @@
     "deadline": "20201013",
     "url": "https://voter.svrs.nj.gov/register",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🎡🎡🎡🎡🎡"
   },
   {
     "label": "New Mexico",
@@ -260,7 +291,8 @@
     "url": "https://portal.sos.state.nm.us/OVR/WebPages/InstructionsStep1.aspx?AspxAutoDetectCookieSupport=1",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "The deadline for online registration is October 6th, but if you missed it, the deadline for in person registration is Halloween! 🎃"
+    "notes": "The deadline for online registration is October 6th, but if you missed it, the deadline for in person registration is Halloween! 🎃",
+    "emoji": "👽👽👽👽👽"
   },
   {
     "label": "New York",
@@ -269,7 +301,8 @@
     "url": "https://voterreg.dmv.ny.gov/MotorVoter/",
     "onlineAcccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "If you don't have a New York State ID, visit elections.ny.gov for more info!"
+    "notes": "If you don't have a New York State ID, visit elections.ny.gov for more info!",
+    "emoji": "🗽🗽🗽🗽🗽"
   },
   {
     "label": "North Carolina",
@@ -278,7 +311,8 @@
     "url": "https://www.ncsbe.gov/registering/how-register",
     "onlineAcccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "If you missed the deadline, you can register and vote in person at one-stop sites until Halloween. Check out https://www.ncsbe.gov/voting/vote-early-person for more info!"
+    "notes": "If you missed the deadline, you can register and vote in person at one-stop sites until Halloween. Check out https://www.ncsbe.gov/voting/vote-early-person for more info!",
+    "emoji": "🍩🍩🍩🍩🍩"
   },
   {
     "label": "North Dakota",
@@ -286,7 +320,8 @@
     "deadline": "20201102",
     "url": "https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
     "onlineAcccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🐎🐎🐎🐎🐎"
   },
   {
     "label": "Ohio",
@@ -294,7 +329,8 @@
     "deadline": "20201005",
     "url": "https://olvr.ohiosos.gov/",
     "onlineAccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🎸🎸🎸🎸🎸"
   },
   {
     "label": "Oklahoma",
@@ -302,15 +338,17 @@
     "deadline": "20201009",
     "url": "https://www.ok.gov/elections/Voter_Info/Register_to_Vote/",
     "onlineAccepted": false,
-    "lastMinuteAccepted":false
+    "lastMinuteAccepted":false,
+    "emoji": "🌾🌾🌾🌾🌾"
   },
   {
     "label": "Oregon",
     "value": "OR",
     "deadline": "20201013",
     "url": "https://sos.oregon.gov/voting/Pages/registration.aspx?lang=en",
-    "onlineAcccepted": true,
-    "lastMinuteAccepted": false
+    "onlineAccepted": true,
+    "lastMinuteAccepted": false,
+    "emoji": "🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️"
   },
   {
     "label": "Pennsylvania",
@@ -318,7 +356,8 @@
     "deadline": "20201019",
     "url": "https://www.pavoterservices.pa.gov/pages/VoterRegistrationApplication.aspx",
     "onlineAcccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🔔🔔🔔🔔🔔"
   },
   {
     "label": "Rhode Island",
@@ -327,7 +366,8 @@
     "url": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
     "onlineAcccepted": true,
     "lastMinuteAccepted":false,
-    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2020 if you're under 18 by election day, you'll be set for the next election!"
+    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2020 if you're under 18 by election day, you'll be set for the next election!",
+    "emoji": "🎾🎾🎾🎾🎾"
   },
   {
     "label": "South Carolina",
@@ -336,7 +376,8 @@
     "url": "https://www.scvotes.gov/south-carolina-voter-registration-information",
     "onlineAcccepted":true,
     "lastMinuteAccepted":false,
-    "notes": "Oct 4th is the deadline for online registration; October 5th is the deadline for registration through mail, and the 2nd is the deadline for in person registration in SC. 🤷‍♀️"
+    "notes": "Oct 4th is the deadline for online registration; October 5th is the deadline for registration through mail, and the 2nd is the deadline for in person registration in SC. 🤷‍♀️",
+    "emoji": "🦌🦌🦌🦌🦌"
   },
   {
     "label": "South Dakota",
@@ -344,7 +385,8 @@
     "deadline": "20201019",
     "url": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "onlineAccepted": false,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🦅🦅🦅🦅🦅"
   },
   {
     "label": "Tennessee",
@@ -352,7 +394,8 @@
     "deadline": "20201005",
     "url": "https://sos.tn.gov/products/elections/register-vote",
     "onlineAcccepted": true,
-    "lastMinuteAccepted": false
+    "lastMinuteAccepted": false,
+    "emoji": "🎻🎻🎻🎻🎻"
   },
   {
     "label": "Texas",
@@ -361,7 +404,8 @@
     "url": "https://www.votetexas.gov/register-to-vote/where-to-get-an-application-2.html",
     "onlineAcccepted": false,
     "lastMinuteAccepted": false,
-    "notes": "Texas is the most populous state that doesn't allow online voter registration yet. 😑 But if you vote, maybe you can change that!"
+    "notes": "Texas is the most populous state that doesn't allow online voter registration yet. 😑 But if you vote, maybe you can change that!",
+    "emoji": "🤠🤠🤠🤠🤠"
   },
   {
     "label": "Utah",
@@ -369,7 +413,8 @@
     "deadline": "20201023",
     "url": "https://secure.utah.gov/voterreg/index.html",
     "onlineAcccepted": true,
-    "lastMinuteAccepted":true
+    "lastMinuteAccepted":true,
+    "emoji": "🏜🏜🏜🏜🏜"
   },
   {
     "label": "Vermont",
@@ -377,7 +422,8 @@
     "deadline": "20201102",
     "url": "https://sos.vermont.gov/elections/voters/registration/",
     "onlineAcccepted": true,
-    "lastMinuteAccepted":true
+    "lastMinuteAccepted":true,
+    "emoji": "🍁🍁🍁🍁🍁"
   },
   {
     "label": "Virginia",
@@ -385,7 +431,8 @@
     "deadline": "20201013",
     "url": "https://www.elections.virginia.gov/registration/how-to-register/",
     "onlineAcccepted": true,
-    "lastMinuteAccepted":false
+    "lastMinuteAccepted":false,
+    "emoji": "📃📃📃📃📃"
   },
   {
     "label": "Washington",
@@ -394,7 +441,8 @@
     "url": "https://www.sos.wa.gov/elections/register.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "Even though you can register in person up until election day, the deadline to update an existing registration with a new address or name is October 26th in Washington!"
+    "notes": "Even though you can register in person up until election day, the deadline to update an existing registration with a new address or name is October 26th in Washington!",
+    "emoji": "🌲🌲🌲🌲🌲"
   },
   {
     "label": "West Virigina",
@@ -403,7 +451,8 @@
     "url": "https://ovr.sos.wv.gov/Register/Landing",
     "onlineAcccepted":true,
     "lastMinuteAccepted":false,
-    "notes": "In West Virginia, some uniformed and overseas voters can register up until November 2nd. Check out the website for more info."
+    "notes": "In West Virginia, some uniformed and overseas voters can register up until November 2nd. Check out the website for more info.",
+    "emoji": "🦋🦋🦋🦋🦋"
   },
   {
     "label": "Wisconsin",
@@ -411,7 +460,8 @@
     "deadline": "20201014",
     "url": "https://myvote.wi.gov/en-US/RegisterToVote",
     "onlineAccepted": true,
-    "lastMinuteAccepted": true
+    "lastMinuteAccepted": true,
+    "emoji": "🧀🧀🧀🧀🧀"
   },
   {
     "label": "Wyoming",
@@ -420,6 +470,7 @@
     "url": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
     "onlineAcccepted": false,
     "lastMinuteAccepted": true,
-    "notes": "In Wyoming, unless you register in person, you have to get your registration form notarized. Sorry..."
+    "notes": "In Wyoming, unless you register in person, you have to get your registration form notarized. Sorry...",
+    "emoji": "🐮🐮🐮🐮🐮"
   }
 ]

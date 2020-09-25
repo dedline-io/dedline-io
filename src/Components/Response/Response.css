@@ -1,6 +1,11 @@
-.response-text {
+.days-left-text {
   font-size: 2em;
   color: #5acfd3
+}
+
+.state-emoji {
+  padding-top: 15px;
+  letter-spacing: 0.3em;
 }
 
 
@@ -11,4 +16,9 @@
 .second-message {
   padding-top: 15px;
   font-size: 0.75em;
+}
+
+.registration-notes {
+  font-size: 0.4em;
+  padding-top: 50px;
 }

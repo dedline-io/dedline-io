@@ -9,34 +9,28 @@ import './Suggestion.css';
 
 function Suggestion(props) {
   const reverse = require('reverse-geocode');
-  const states = require('us-state-converter');
   const dropdownOptions = require('../../states.json');
+
   const [userCoords, setUserCoords] = useState(null);
   const [stateAbbr, setStateAbbr] = useState(null);
-  const [stateFull, setStateFull] = useState(null);
   const [selectedState, setSelectedState] = useState(false);
+
   // Grab user location
   useEffect(() => {
     setUserCoords(props.coords);
-  });
+  }, [props.coords]);
 
   // Convert location to a state
   useEffect(() => {
     if (userCoords && userCoords.latitude) {
       const usState = reverse.lookup(userCoords.latitude, userCoords.longitude, 'us');
       setStateAbbr(usState.state_abbr);
+      setSelectedState(true);
     }
-  }, [userCoords])
-
-  useEffect(() => {
-    if (stateAbbr) {
-      setStateFull(states(stateAbbr).name);
-    }
-  }, [stateAbbr])
+  }, [userCoords, reverse])
 
   const onDropdownChange = (state) => {
     setStateAbbr(state.value);
-    setStateFull(state.full);
     setSelectedState(true);
   }
 
@@ -49,13 +43,13 @@ function Suggestion(props) {
         <Select
           styles={selectStyles}
           options={dropdownOptions}
-          value={dropdownOptions.filter(option => option.label === stateFull)}
+          value={dropdownOptions.filter(option => option.value === stateAbbr)}
           onChange={value => onDropdownChange(value)}
         />
       </header>
       {selectedState &&
         <Response
-          selectedState={dropdownOptions.filter(option => option.label === stateFull)}
+          selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
         />
       }
     </div>
