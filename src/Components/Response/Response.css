@@ -22,3 +22,20 @@
   font-size: 0.4em;
   padding-top: 50px;
 }
+
+.hurry-announcement {
+  padding-top: 15px;
+}
+
+.urgent { 
+  color: #ce1212;
+  font-weight: 600;
+  animation: blinker 1s linear infinite;
+  animation-iteration-count: 3;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
