@@ -38,7 +38,7 @@ function Response({ selectedState }) {
                   <>
                     You can register online. Visit your state's official website {currentSelectedState && <a href={currentSelectedState.url}>here.</a>}
                     {howMuchTime >= 7 && currentSelectedState && !currentSelectedState.lastMinuteAccepted && <div> You should do it now!! </div>}
-                    {howMuchTime < 7 && howMuchTime >= 0 && <div className='hurry-announcement'>😱 Hurry!!!😩</div>}
+                    {howMuchTime < 7 && howMuchTime >= 0 && <div className='hurry-announcement'><span role='img' aria-label='screaming-guy-emoji'>😱</span> Hurry!! <span role='img' aria-label='weary-guy-emoji'>😩</span> </div>}
                     <div className='second-message'> {currentSelectedState.lastMinuteAccepted && <div> <strong>You</strong> can even register in person on election day. Lucky you! But don't risk waiting in line or any other shenanigans, just do it now! 🇺🇸 </div>}</div>
                   </>
                 ) :
