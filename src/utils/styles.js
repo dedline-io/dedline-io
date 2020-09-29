@@ -37,6 +37,11 @@ export const selectStyles = {
     ...base,
     background: "#060e29",
     color: "#70bbec",
+    // center the text
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "100%",
     // kill the white space on first and last option
     padding: 0
   })

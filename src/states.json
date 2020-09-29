@@ -299,7 +299,7 @@
     "value": "NY",
     "deadline": "20201009",
     "url": "https://voterreg.dmv.ny.gov/MotorVoter/",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted": false,
     "notes": "If you don't have a New York State ID, visit elections.ny.gov for more info!",
     "emoji": "🗽🗽🗽🗽🗽"
@@ -309,7 +309,7 @@
     "value": "NC",
     "deadline": "20201009",
     "url": "https://www.ncsbe.gov/registering/how-register",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted": false,
     "notes": "If you missed the deadline, you can register and vote in person at one-stop sites until Halloween. Check out https://www.ncsbe.gov/voting/vote-early-person for more info!",
     "emoji": "🍩🍩🍩🍩🍩"
@@ -319,7 +319,7 @@
     "value": "ND",
     "deadline": "20201102",
     "url": "https://vip.sos.nd.gov/PortalListDetails.aspx?ptlhPKID=79&ptlPKID=7",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted": true,
     "emoji": "🐎🐎🐎🐎🐎"
   },
@@ -355,7 +355,7 @@
     "value": "PA",
     "deadline": "20201019",
     "url": "https://www.pavoterservices.pa.gov/pages/VoterRegistrationApplication.aspx",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted": false,
     "emoji": "🔔🔔🔔🔔🔔"
   },
@@ -364,7 +364,7 @@
     "value": "RI",
     "deadline": "20201004",
     "url": "https://vote.sos.ri.gov/Home/RegistertoVote?ActiveFlag=1",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted":false,
     "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2020 if you're under 18 by election day, you'll be set for the next election!",
     "emoji": "🎾🎾🎾🎾🎾"
@@ -374,7 +374,7 @@
     "value": "SC",
     "deadline": "20201004",
     "url": "https://www.scvotes.gov/south-carolina-voter-registration-information",
-    "onlineAcccepted":true,
+    "onlineAccepted":true,
     "lastMinuteAccepted":false,
     "notes": "Oct 4th is the deadline for online registration; October 5th is the deadline for registration through mail, and the 2nd is the deadline for in person registration in SC. 🤷‍♀️",
     "emoji": "🦌🦌🦌🦌🦌"
@@ -393,7 +393,7 @@
     "value": "TN",
     "deadline": "20201005",
     "url": "https://sos.tn.gov/products/elections/register-vote",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted": false,
     "emoji": "🎻🎻🎻🎻🎻"
   },
@@ -402,7 +402,7 @@
     "value": "TX",
     "deadline": "20201005",
     "url": "https://www.votetexas.gov/register-to-vote/where-to-get-an-application-2.html",
-    "onlineAcccepted": false,
+    "onlineAccepted": false,
     "lastMinuteAccepted": false,
     "notes": "Texas is the most populous state that doesn't allow online voter registration yet. 😑 But if you vote, maybe you can change that!",
     "emoji": "🤠🤠🤠🤠🤠"
@@ -412,7 +412,7 @@
     "value": "UT",
     "deadline": "20201023",
     "url": "https://secure.utah.gov/voterreg/index.html",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted":true,
     "emoji": "🏜🏜🏜🏜🏜"
   },
@@ -421,7 +421,7 @@
     "value": "VT",
     "deadline": "20201102",
     "url": "https://sos.vermont.gov/elections/voters/registration/",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted":true,
     "emoji": "🍁🍁🍁🍁🍁"
   },
@@ -430,7 +430,7 @@
     "value": "VA",
     "deadline": "20201013",
     "url": "https://www.elections.virginia.gov/registration/how-to-register/",
-    "onlineAcccepted": true,
+    "onlineAccepted": true,
     "lastMinuteAccepted":false,
     "emoji": "📃📃📃📃📃"
   },
@@ -449,7 +449,7 @@
     "value": "WV",
     "deadline": "20201013",
     "url": "https://ovr.sos.wv.gov/Register/Landing",
-    "onlineAcccepted":true,
+    "onlineAccepted":true,
     "lastMinuteAccepted":false,
     "notes": "In West Virginia, some uniformed and overseas voters can register up until November 2nd. Check out the website for more info.",
     "emoji": "🦋🦋🦋🦋🦋"
@@ -468,7 +468,7 @@
     "value": "WY",
     "deadline": "20201019",
     "url": "https://sos.wyo.gov/Elections/State/RegisteringToVote.aspx",
-    "onlineAcccepted": false,
+    "onlineAccepted": false,
     "lastMinuteAccepted": true,
     "notes": "In Wyoming, unless you register in person, you have to get your registration form notarized. Sorry...",
     "emoji": "🐮🐮🐮🐮🐮"
