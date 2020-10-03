@@ -34,6 +34,10 @@
   animation-iteration-count: 2;
 }
 
+.last-day-announcement {
+  color: #ce1212;
+}
+
 @keyframes blinker {
   50% {
     opacity: 0;

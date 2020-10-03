@@ -18,7 +18,7 @@ function Response({ selectedState }) {
       <div className={howMuchTime < 7 ? 'days-left-text urgent' : 'days-left-text'}>
         {currentSelectedState && currentSelectedState.value === 'ND' ? '' :
           (
-            howMuchTime + ' days left'
+            howMuchTime === 1 ? howMuchTime + ' day left' : howMuchTime + ' days left'
           )
         }
       </div>
@@ -34,6 +34,7 @@ function Response({ selectedState }) {
               <>
                 {howMuchTime < 0 && currentSelectedState && currentSelectedState.lasminuteAccepted && "The deadline's passed! But you can still register in person on your voting day. Lucky procrastinator! Find details at your local polling place."}
                 {howMuchTime < 0 && currentSelectedState && !currentSelectedState.lasminuteAccepted && "The deadline's passed! Hope you registered. 😢"}
+                <div className='last-day-announcement'>{howMuchTime === 0 && 'Today is the last day you can register!'}</div>
                 {howMuchTime >= 0 && currentSelectedState && currentSelectedState.onlineAccepted ? (
                   <>
                     You can register online. Visit your state's official website {currentSelectedState && <a href={currentSelectedState.url}>here.</a>}
