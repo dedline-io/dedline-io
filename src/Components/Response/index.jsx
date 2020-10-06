@@ -11,7 +11,7 @@ function Response({ selectedState }) {
 
   if (selectedState.length > 0 && currentSelectedState.deadline) {
     const momentDeadlineDate = moment(currentSelectedState.deadline)
-    howMuchTime = momentDeadlineDate.diff(currentDate, 'days') + 1;
+    howMuchTime = momentDeadlineDate.diff(currentDate, 'days');
   }
 
   return (
