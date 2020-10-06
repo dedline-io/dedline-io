@@ -17,7 +17,7 @@ function Response({ selectedState }) {
   return (
     <div className="response">
       <div className={howMuchTime < 7 ? 'days-left-text urgent' : 'days-left-text'}>
-        {currentSelectedState && currentSelectedState.value === 'ND' ? '' :
+        {(currentSelectedState && currentSelectedState.value === 'ND') || howMuchTime <= 0 ? '' :
           (
             howMuchTime === 1 ? howMuchTime + ' day left' : howMuchTime + ' days left'
           )
