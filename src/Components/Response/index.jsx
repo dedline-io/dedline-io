@@ -34,8 +34,8 @@ function Response({ selectedState }) {
           {currentSelectedState && currentSelectedState.value === 'ND' ? " You don't have to register to vote. If you live in North Dakota, you're all set. Nice!" :
             (
               <>
-                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lasminuteAccepted && "The deadline's passed! But you can still register in person on your voting day. Lucky procrastinator! Find details at your local polling place."}
-                {howMuchTimeSmaller < 0 && currentSelectedState && !currentSelectedState.lasminuteAccepted && "The deadline's passed! Hope you registered. 😢"}
+                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lastMinuteAccepted && "The deadline's passed! But you can still register in person on your voting day. Lucky procrastinator! Find details at your local polling place."}
+                {howMuchTimeSmaller < 0 && currentSelectedState && !currentSelectedState.lastMinuteAccepted && "The deadline's passed! Hope you registered. 😢"}
                 <div className='last-day-announcement'>{howMuchTimeSmaller > 0 && howMuchTime === 0 && 'Today is the last day you can register!'}</div>
                 {howMuchTimeSmaller > 0 && howMuchTime >= 0 && currentSelectedState && currentSelectedState.onlineAccepted ? (
                   <>
