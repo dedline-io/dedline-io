@@ -14,12 +14,7 @@ function Response({ selectedState }) {
     const momentDeadlineDate = moment(`${currentSelectedState.deadline}T235959`)
     howMuchTime = momentDeadlineDate.diff(currentDate, 'days');
     howMuchTimeSmaller = momentDeadlineDate.diff(currentDate);
-
-    console.log(howMuchTimeSmaller);
   }
-  console.log(howMuchTime);
-  console.log(currentDate);
-
   return (
     <div className="response">
       <div className={howMuchTime < 7 ? 'days-left-text urgent' : 'days-left-text'}>
