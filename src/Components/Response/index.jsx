@@ -1,22 +1,22 @@
 import React from 'react';
 import moment from 'moment';
-
-
 import './Response.css';
 
-function Response({ selectedState }) {
+function Response({ selectedState, primaryOrGeneral }) {
   let howMuchTime;
   let howMuchTimeSmaller;
+  let primaryDate;
   const currentSelectedState = selectedState[0];
   const currentDate = moment();
 
   if (selectedState.length > 0 && currentSelectedState.deadline) {
-    const momentDeadlineDate = moment(`${currentSelectedState.deadline}T235959`)
+    const momentDeadlineDate = moment(`${primaryOrGeneral === 'general' ? currentSelectedState.deadline : currentSelectedState.primaryDeadline}T235959`);
+    primaryDate = primaryOrGeneral === 'primary' ? moment(`${currentSelectedState.primaryDate}T235959`).format('MMMM Do') : null;
     howMuchTime = momentDeadlineDate.diff(currentDate, 'days');
     howMuchTimeSmaller = momentDeadlineDate.diff(currentDate);
   }
   return (
-    <div className="response">
+    <div className='response'>
       <div className={howMuchTime < 7 ? 'days-left-text urgent' : 'days-left-text'}>
         {(currentSelectedState && currentSelectedState.value === 'ND') || howMuchTime <= 0 ? '' :
           (
@@ -29,13 +29,18 @@ function Response({ selectedState }) {
           {currentSelectedState && currentSelectedState.emoji}
         </span>
       </div>
-      <div className="response-url">
+      {primaryDate &&
+        <div className='primary-sentence'>
+          The primary election for {currentSelectedState.label} is on <span className='primary-date'>{primaryDate}</span>.
+        </div>
+      }
+      <div className='response-url'>
         <div className='registration-details'>
           {currentSelectedState && currentSelectedState.value === 'ND' ? " You don't have to register to vote. If you live in North Dakota, you're all set. Nice!" :
             (
               <>
-                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lastMinuteAccepted && "The deadline's passed! But you can still register in person on your voting day. Lucky procrastinator! Find details at your local polling place."}
-                {howMuchTimeSmaller < 0 && currentSelectedState && !currentSelectedState.lastMinuteAccepted && "The deadline's passed! Hope you registered. 😢"}
+                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lastMinuteAccepted && "The deadline's passed! But you can still register in person on your voting day. Check the state link above or find details at your local polling place."}
+                {howMuchTimeSmaller < 0 && currentSelectedState && !currentSelectedState.lastMinuteAccepted && "The deadline's passed - hope you registered!"}
                 <div className='last-day-announcement'>{howMuchTimeSmaller > 0 && howMuchTime === 0 && 'Today is the last day you can register!'}</div>
                 {howMuchTimeSmaller > 0 && howMuchTime >= 0 && currentSelectedState && currentSelectedState.onlineAccepted ? (
                   <>

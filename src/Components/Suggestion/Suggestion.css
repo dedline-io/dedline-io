@@ -1,3 +1,28 @@
 .vote-question {
   padding-bottom: 0.5em;
 }
+
+.primary-or-general {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+button {
+  background-color: rgb(95, 157, 191);
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 0.4em;
+}
+
+button:hover {
+  background-color: rgba(64, 0, 255, 0.543);
+  border: 2px solid white;
+}

@@ -14,6 +14,8 @@ function Suggestion(props) {
   const [userCoords, setUserCoords] = useState(null);
   const [stateAbbr, setStateAbbr] = useState(null);
   const [selectedState, setSelectedState] = useState(false);
+  const [primaryOrGeneralSelected, setPrimaryOrGeneralSelected] = useState(false);
+  const [primaryOrGeneral, setPrimaryOrGeneral] = useState(null);
 
   // Grab user location
   useEffect(() => {
@@ -32,26 +34,42 @@ function Suggestion(props) {
   const onDropdownChange = (state) => {
     setStateAbbr(state.value);
     setSelectedState(true);
-  }
+  };
+
+  const onPrimaryClick = () => {
+    setPrimaryOrGeneralSelected(true);
+    setPrimaryOrGeneral('primary');
+
+  };
+
+  const onGeneralClick = () => {
+    setPrimaryOrGeneralSelected(true);
+    setPrimaryOrGeneral('general');
+  };
 
   return (
     <div className="Suggestion">
-      <header>
-        <div className="vote-question">
-      <div className="header-emoji">🗳🗳🗳🗳🗳</div>
-         How much time do I have to register to vote in:
+      <div className="vote-question">
+        <div className="header-emoji">🗳🗳🗳🗳🗳</div>
+        How much time do I have to register to vote in for the:
+        <div className='primary-or-general'>
+          <button className='primary-button' onClick={onPrimaryClick}> Primary </button>
+          <button className='general-button' onClick={onGeneralClick}> General </button>
         </div>
+      </div>
+      {primaryOrGeneralSelected &&
         <Select
           styles={selectStyles}
           options={dropdownOptions}
           value={dropdownOptions.filter(option => option.value === stateAbbr)}
           onChange={value => onDropdownChange(value)}
-          isSearchable={false}
+          isSearchable={true}
         />
-      </header>
+      }
       {selectedState &&
         <Response
           selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
+          primaryOrGeneral={primaryOrGeneral}
         />
       }
     </div>

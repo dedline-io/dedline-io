@@ -1,6 +1,6 @@
 .days-left-text {
   font-size: 2em;
-  color: #5acfd3
+  color: #5acfd3;
 }
 
 .state-emoji {
@@ -36,6 +36,14 @@
 
 .last-day-announcement {
   color: #ce1212;
+}
+
+.primary-date {
+  color: #cdd35a;
+}
+
+.primary-sentence {
+  margin: 10px;
 }
 
 @keyframes blinker {
