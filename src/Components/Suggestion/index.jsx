@@ -66,7 +66,7 @@ const Suggestion = (props) => {
   };
 
   return (
-    <div className="Suggestion">
+    <div className="suggestion">
       <h1 className='header'>🇺🇸 2022 Voter Registration Deadlines 🇺🇸</h1>
       <div className="vote-question">
         How much time do I have to register to vote in for the:
