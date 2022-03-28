@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Suggestion from './Components/Suggestion';
 
-function App() {
+const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {

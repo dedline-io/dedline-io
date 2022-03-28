@@ -4,25 +4,29 @@
 
 .primary-or-general {
   display: flex;
-  margin: auto;
   justify-content: space-around;
   margin: 20px;
 }
 
 button {
-  background-color: rgb(95, 157, 191);
-  border: none;
+  background-color: #060e29;
+  border: 3px solid white;
   color: white;
   font-weight: 500;
+  font-size: 0.7em;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-size: 0.4em;
 }
 
 button:hover {
-  background-color: rgba(64, 0, 255, 0.543);
-  border: 2px solid white;
+  background-color: #5f9dbf;
+  border: 3px solid white;
+}
+
+.header {
+  font-size: 1.1em;
+  color: #5acfd3;
 }

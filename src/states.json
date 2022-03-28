@@ -19,7 +19,8 @@
     "url": "https://voterregistration.alaska.gov/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🎣🎣🎣🎣🎣"
+    "emoji": "🎣🎣🎣🎣🎣",
+    "notes": "In Alaska, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Arizona",
@@ -41,7 +42,8 @@
     "url":"https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information",
     "onlineAccepted": false,
     "lastMinuteAccepted": false,
-    "emoji": "🦊🦊🦊🦊🦊"
+    "emoji": "🦊🦊🦊🦊🦊",
+    "notes": "In Arkansas, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "California",
@@ -52,7 +54,7 @@
     "url":"https://registertovote.ca.gov/",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "In California, 16 and 17 year olds can also preregister to vote at the above link for future elections!",
+    "notes": "In California, those convicted of felonies can register and vote after serving their prison sentence. Also, 16 and 17 year olds can also preregister to vote at the above link for future elections!",
     "emoji": "🏞🏞🏞🏞🏞🏞🏞"
   },
   {
@@ -64,7 +66,8 @@
     "url": "https://www.sos.state.co.us/pubs/elections/vote/VoterHome.html?",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🏔🏔🏔🏔🏔"
+    "emoji": "🏔🏔🏔🏔🏔",
+    "notes": "In Colorado, those with felony convictions can register and vote after serving their prison sentence."
   },
   {
     "label": "Connecticut",
@@ -75,7 +78,7 @@
     "url": "https://voterregistration.ct.gov/OLVR/welcome.do",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "For some reason, Connecticut's voter registration website is down every night from midnight until 6AM. So... just know that...",
+    "notes": "For some reason, Connecticut's voter registration website is down every night from midnight until 6AM. So... just know that... also, in Connecticut, those with felony convictions can register and vote after serving their prison sentence and parole.",
     "emoji": "⚓️⚓️⚓️⚓️⚓️"
   },
   {
@@ -99,7 +102,7 @@
     "url": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "In DC, you can pre-register to vote when you're 16 years old! (You can't vote in the 2020 election, but you'll be registered for 2022 and any upcoming elections!)",
+    "notes": "In DC, you can pre-register to vote when you're 16 years old! (You can't vote in the 2020 election, but you'll be registered for 2022 and any upcoming elections!) DC is also one of three states that lets citizens vote from prison!",
     "emoji": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸"
   },
   {
@@ -122,7 +125,8 @@
     "url": "https://georgia.gov/register-vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🍑🍑🍑🍑🍑"
+    "emoji": "🍑🍑🍑🍑🍑",
+    "notes": "In Georgia, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Hawaii",
@@ -133,7 +137,8 @@
     "url": "https://elections.hawaii.gov/register-to-vote/",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🌈🌈🌈🌈🌈"
+    "emoji": "🌈🌈🌈🌈🌈",
+    "notes": "In Hawaii, those with felony convictions can register and vote after serving their prison sentence."
   },
   {
     "label": "Idaho",
@@ -144,7 +149,8 @@
     "url": "https://voteidaho.gov/",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🍟🍟🍟🍟🍟"
+    "emoji": "🍟🍟🍟🍟🍟",
+    "notes": "In Idaho, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Illinois",
@@ -155,7 +161,8 @@
     "url": "https://ova.elections.il.gov/",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🌭🌭🌭🌭🌭"
+    "emoji": "🌭🌭🌭🌭🌭",
+    "notes": "In Illinois, those with felony convictions get their voting rights restored after serving their prison sentence!"
   },
   {
     "label": "Indiana",
@@ -166,7 +173,8 @@
     "url": "https://indianavoters.in.gov/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🏀🏀🏀🏀🏀"
+    "emoji": "🏀🏀🏀🏀🏀",
+    "notes": "In Indiana, those with felony convictions get their voting rights restored after serving their prison sentence!"
   },
   {
     "label": "Iowa",
@@ -188,7 +196,8 @@
     "url": "https://sos.ks.gov/elections/voter-information.html",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🌻🌻🌻🌻🌻"
+    "emoji": "🌻🌻🌻🌻🌻",
+    "notes": "In Kansas, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Kentucky",
@@ -210,7 +219,7 @@
     "url": "https://www.sos.la.gov/ElectionsAndVoting/RegisterToVote/Pages/default.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "Louisana's midterm election this year is in December, not November! It's December 10th, and the primary is November 8th.",
+    "notes": "Louisana's midterm election this year is in December, not November! It's December 10th, and the primary is November 8th. Also, those convicted of felonies can vote again in Louisiana after serving their prison sentence and parole.",
     "emoji": "🎺🎺🎺🎺🎺"
   },
   {
@@ -222,7 +231,8 @@
     "url": "https://www.maine.gov/sos/cec/elec/upcoming/index.html",
     "onlineAccepted": false,
     "lastMinuteAccepted": true,
-    "emoji": "🦞🦞🦞🦞🦞"
+    "emoji": "🦞🦞🦞🦞🦞",
+    "notes": "Maine is one of three states that lets citizens vote from prison!"
   },
   {
     "label": "Maryland",
@@ -233,7 +243,8 @@
     "url": "https://elections.maryland.gov/voter_registration/index.html",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🦀🦀🦀🦀🦀"
+    "emoji": "🦀🦀🦀🦀🦀",
+    "notes": "In Maryland, those with felony convictions get their voting rights restored after serving their prison sentence!"
   },
   {
     "label": "Massachusetts",
@@ -244,7 +255,8 @@
     "url": "https://www.sec.state.ma.us/ele/eleifv/howreg.htm",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓"
+    "emoji": "👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓👩🏽‍🎓",
+    "notes": "In Massachusetts, those with felony convictions get their voting rights restored after serving their prison sentence!"
   },
   {
     "label": "Michigan",
@@ -255,7 +267,8 @@
     "url": "https://mvic.sos.state.mi.us/Home/RegisterToVote",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🎶🎶🎶🎶🎶"
+    "emoji": "🎶🎶🎶🎶🎶",
+    "notes": "In Michigan, those with felony convictions get their voting rights restored after serving their prison sentence!"
   },
   {
     "label": "Minnesota",
@@ -266,7 +279,8 @@
     "url": "https://www.sos.state.mn.us/elections-voting/register-to-vote/",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🚤🚤🚤🚤🚤"
+    "emoji": "🚤🚤🚤🚤🚤",
+    "notes": "In Minnesota, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Mississippi",
@@ -288,7 +302,8 @@
     "url": "https://www.sos.mo.gov/elections/goVoteMissouri/register",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🌼🌼🌼🌼🌼"
+    "emoji": "🌼🌼🌼🌼🌼",
+    "notes": "In Missouri, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Montana",
@@ -300,7 +315,7 @@
     "onlineAccepted": false,
     "lastMinuteAccepted": true,
     "emoji": "🐴🐴🐴🐴🐴",
-    "notes": "If you miss the official deadline, Montana also offers late registration up until the date before the election! Check out where you can register in the state's link above."
+    "notes": "If you miss the official deadline, Montana also offers late registration up until the date before the election! Check out where you can register in the state's link above. Those with felony convictions also get their voting rights restored after serving their prison sentence."
   },
   {
     "label": "Nebraska",
@@ -311,7 +326,7 @@
     "url": "https://sos.nebraska.gov/elections/registering-vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "Listed above is thes online deadline, but you can register in person through the next week! Check the state's website above for more info.",
+    "notes": "Listed above is thes online deadline, but you can register in person through the next week! Check the state's website above for more info. Also, those with felony convictions can register and vote after serving their prison sentence, parole, and probation.",
     "emoji": "🌾🌾🌾🌾🌾"
   },
   {
@@ -323,7 +338,7 @@
     "url": "https://www.nvsos.gov/sos/elections/voters/registering-to-vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "Just a heads up, the mail-in registration deadline is a few weeks earlier than the online one!",
+    "notes": "Just a heads up, the mail-in registration deadline is a few weeks earlier than the online one! Also, in Nevada, those convicted of felonies get their voting rights restored after serving their prison sentence.",
     "emoji": "🎰🎰🎰🎰🎰"
   },
   {
@@ -335,7 +350,7 @@
     "url": "https://sos.nh.gov/elections/voters/register-to-vote/",
     "onlineAccepted": false,
     "lastMinuteAccepted": true,
-    "notes": "In New Hampshire, the deadline varies between 6 and 13 days before election day depending on the town you live in (13 days is shown here, but you could have more time)! Check the state's website above for specific info.",
+    "notes": "In New Hampshire, the deadline varies between 6 and 13 days before election day depending on the town you live in (13 days is shown here, but you could have more time)! Check the state's website above for specific info. Also, in NH, those people convicted of felonies have the right to vote after serving their prison sentence!",
     "emoji": "🌳🌳🌳🌳🌳"
   },
   {
@@ -347,7 +362,8 @@
     "url": "https://nj.gov/state/elections/voter-registration.shtml",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🎡🎡🎡🎡🎡"
+    "emoji": "🎡🎡🎡🎡🎡",
+    "notes": "In New Jersey, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "New Mexico",
@@ -358,7 +374,7 @@
     "url": "https://www.sos.state.nm.us/voting-and-elections/voting-faqs/voter-registration/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "The deadline for online registration is above, but if you missed it, the deadline for in person registration is the Saturday before the election! 🎃",
+    "notes": "The deadline for online registration is above, but if you missed it, the deadline for in person registration is the Saturday before the election! Those with felony convictions can register and vote in in NM after serving their prison sentence, parole, and probation.",
     "emoji": "👽👽👽👽👽"
   },
   {
@@ -370,7 +386,8 @@
     "url": "https://www.ny.gov/services/register-vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🗽🗽🗽🗽🗽"
+    "emoji": "🗽🗽🗽🗽🗽",
+    "notes": "In New York, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "North Carolina",
@@ -381,7 +398,7 @@
     "url": "https://www.ncsbe.gov/registering/how-register",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "If you missed the deadline, you can register and vote in person during early voting! Check the state website above.",
+    "notes": "If you missed the deadline, you can register and vote in person during early voting! Check the state website above. Also, in NC, those convicted of felonies get their voting rights restored after prison!",
     "emoji": "🍩🍩🍩🍩🍩"
   },
   {
@@ -393,7 +410,8 @@
     "url": "https://vote.nd.gov/civics101.aspx?ptlhPKID=126&ptlPKID=7",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🐎🐎🐎🐎🐎"
+    "emoji": "🐎🐎🐎🐎🐎",
+    "notes": "In North Dakota, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Ohio",
@@ -404,7 +422,8 @@
     "url": "https://www.ohiosos.gov/elections/voters/register/",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🎸🎸🎸🎸🎸"
+    "emoji": "🎸🎸🎸🎸🎸",
+    "notes": "In Ohio, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Oklahoma",
@@ -415,7 +434,8 @@
     "url": "https://oklahoma.gov/elections/voter-registration/register-to-vote.html",
     "onlineAccepted": false,
     "lastMinuteAccepted":false,
-    "emoji": "🌾🌾🌾🌾🌾"
+    "emoji": "🌾🌾🌾🌾🌾",
+    "notes": "In Oklahoma, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Oregon",
@@ -426,7 +446,8 @@
     "url": "https://sos.oregon.gov/voting/pages/registration.aspx?lang=en ",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️"
+    "emoji": "🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️🚵‍♂️",
+    "notes": "In Oregon, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Pennsylvania",
@@ -437,7 +458,8 @@
     "url": "https://www.pavoterservices.pa.gov/pages/VoterRegistrationApplication.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "🔔🔔🔔🔔🔔"
+    "emoji": "🔔🔔🔔🔔🔔",
+    "notes": "In Pennsylvania, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Rhode Island",
@@ -448,7 +470,7 @@
     "url": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "onlineAccepted": true,
     "lastMinuteAccepted":false,
-    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2022 if you're under 18 by election day, you'll be set for the next election!",
+    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2022 if you're under 18 by election day, you'll be set for the next election! Those convicted of felonies also get their voting rights restored after prison!",
     "emoji": "🎾🎾🎾🎾🎾"
   },
   {
@@ -460,7 +482,8 @@
     "url": "https://www.scvotes.gov/south-carolina-voter-registration-information",
     "onlineAccepted":true,
     "lastMinuteAccepted":false,
-    "emoji": "🦌🦌🦌🦌🦌"
+    "emoji": "🦌🦌🦌🦌🦌",
+    "notes": "In South Carolina, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "South Dakota",
@@ -471,7 +494,8 @@
     "url": "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx",
     "onlineAccepted": false,
     "lastMinuteAccepted": false,
-    "emoji": "🦅🦅🦅🦅🦅"
+    "emoji": "🦅🦅🦅🦅🦅",
+    "notes": "In South Dakota, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Tennessee",
@@ -494,7 +518,8 @@
     "url": "https://www.votetexas.gov/register-to-vote/update-voter-registration.html",
     "onlineAccepted": false,
     "lastMinuteAccepted": false,
-    "emoji": "⭐️⭐️⭐️⭐️⭐️"
+    "emoji": "⭐️⭐️⭐️⭐️⭐️",
+    "notes": "In Texas, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Utah",
@@ -506,7 +531,7 @@
     "onlineAccepted": true,
     "lastMinuteAccepted":true,
     "emoji": "🏜🏜🏜🏜🏜",
-    "notes": "The deadline is at 5PM on the deadline day!"
+    "notes": "The deadline is at 5PM on the deadline day! Also, in Utah, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Vermont",
@@ -518,7 +543,7 @@
     "onlineAccepted": true,
     "lastMinuteAccepted":true,
     "emoji": "🍁🍁🍁🍁🍁",
-    "notes": "In Vermont, you can easily register to vote up until Election Day!"
+    "notes": "In Vermont, you can easily register to vote up until Election Day! Vermont is also one of three states that lets citizens vote from prison!"
   },
   {
     "label": "Virginia",
@@ -529,7 +554,8 @@
     "url": "https://www.elections.virginia.gov/registration/how-to-register/",
     "onlineAccepted": true,
     "lastMinuteAccepted":false,
-    "emoji": "📃📃📃📃📃"
+    "emoji": "📃📃📃📃📃",
+    "notes": "In Virginia, those with felony convictions get their voting rights restored after prison!"
   },
   {
     "label": "Washington",
@@ -540,7 +566,7 @@
     "url": "https://www.sos.wa.gov/elections/register.aspx",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "Even though you can register in person up until election day, the deadline to register online is 8 days before!",
+    "notes": "Even though you can register in person up until election day, the deadline to register online is 8 days before! Also, as of this year, those convicted of felonies in the state of Washington get their voting rights restored after prison!",
     "emoji": "🌲🌲🌲🌲🌲"
   },
   {
@@ -552,7 +578,8 @@
     "url": "https://ovr.sos.wv.gov/Register/Landing",
     "onlineAccepted":true,
     "lastMinuteAccepted":false,
-    "emoji": "🦋🦋🦋🦋🦋"
+    "emoji": "🦋🦋🦋🦋🦋",
+    "notes": "In West Virginia, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Wisconsin",
@@ -563,7 +590,8 @@
     "url": "https://myvote.wi.gov/en-us/Register-To-Vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "emoji": "🧀🧀🧀🧀🧀"
+    "emoji": "🧀🧀🧀🧀🧀",
+    "notes": "In Wisconsin, those with felony convictions can register and vote after serving their prison sentence, parole, and probation."
   },
   {
     "label": "Wyoming",

@@ -19,8 +19,8 @@
 }
 
 .registration-notes {
-  font-size: 0.4em;
-  padding-top: 50px;
+  font-size: 0.5em;
+  padding-top: 10px;
 }
 
 .hurry-announcement {
@@ -44,6 +44,8 @@
 
 .primary-sentence {
   margin: 10px;
+  font-size: 0.75em;
+  padding-bottom: 10px;
 }
 
 @keyframes blinker {
