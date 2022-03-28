@@ -67,7 +67,7 @@ const Suggestion = (props) => {
 
   return (
     <div className="suggestion">
-      <h1 className='header'>🇺🇸 2022 Voter Registration Deadlines 🇺🇸</h1>
+      <h1 className='header'><span role='img' aria-label='us-flag-emoji'>🇺🇸</span> 2022 Voter Registration Deadlines <span role='img' aria-label='us-flag-emoji'>🇺🇸</span></h1>
       <div className="vote-question">
         How much time do I have to register to vote in for the:
         <div className='primary-or-general'>
@@ -79,7 +79,7 @@ const Suggestion = (props) => {
         <div className='select'>
           <Select
             styles={selectStyles}
-            placeholder='Pick your state...'
+            placeholder={window.innerWidth > 640 ? 'Pick your state...' : 'States...'}
             options={dropdownOptions}
             value={dropdownOptions.filter(option => option.value === stateAbbr)}
             onChange={value => onDropdownChange(value)}

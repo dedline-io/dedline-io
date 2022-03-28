@@ -24,6 +24,9 @@ a:hover {
   padding-right: 0.25em;
 }
 
+.voting-registration-question {
+  max-width: 98%;
+}
 
 .lds-dual-ring {
   margin-top: 200px;
