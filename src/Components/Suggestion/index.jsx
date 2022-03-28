@@ -29,6 +29,8 @@ const Suggestion = (props) => {
       setStateAbbr(usState.state_abbr);
       setSelectedState(true);
       setButtonColor('primary-button');
+      setPrimaryOrGeneral('primary');
+      setPrimaryOrGeneralSelected(true);
     }
   }, [userCoords, reverse])
 
