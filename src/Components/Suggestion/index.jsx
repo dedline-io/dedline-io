@@ -28,6 +28,7 @@ const Suggestion = (props) => {
       const usState = reverse.lookup(userCoords.latitude, userCoords.longitude, 'us');
       setStateAbbr(usState.state_abbr);
       setSelectedState(true);
+      setButtonColor('primary-button');
     }
   }, [userCoords, reverse])
 
@@ -39,6 +40,11 @@ const Suggestion = (props) => {
   const resetButtonColor = button => {
     document.getElementsByClassName(button)[0].style.backgroundColor = '#060e29';
     document.getElementsByClassName(button)[0].style.border = '1px solid white';
+  }
+
+  const setButtonColor = button => {
+    document.getElementsByClassName(button)[0].style.backgroundColor = '#5f9dbf';
+    document.getElementsByClassName(button)[0].style.border = '3px solid white';
   }
 
   const onPrimaryClick = (el) => {
