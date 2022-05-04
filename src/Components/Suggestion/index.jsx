@@ -27,7 +27,8 @@ const Suggestion = (props) => {
       }
       // TODO: refactor this so it's nicer in the future.
       if (currentPath.includes('primary') || currentPath.includes('general')){
-        if (dropdownOptions.find(s => s.value === currentPath.slice(-2).toUpperCase()) !== undefined){
+        const state = currentPath.slice(-2).toUpperCase();
+        if (dropdownOptions.find(s => s.value === state) !== undefined){
           setPrimaryOrGeneral(currentPath[1] === 'p' ? 'primary' : 'general');
           setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
           setPrimaryOrGeneralSelected(true);
