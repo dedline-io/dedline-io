@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { geolocated } from 'react-geolocated';
 import Select from 'react-select';
 import { selectStyles } from '../../utils/styles';
@@ -10,12 +11,31 @@ import './Suggestion.css';
 const Suggestion = (props) => {
   const reverse = require('reverse-geocode');
   const dropdownOptions = require('../../states.json');
-
+  const navigate = useNavigate();
+  const location  = useLocation();
   const [userCoords, setUserCoords] = useState(null);
   const [stateAbbr, setStateAbbr] = useState(null);
   const [selectedState, setSelectedState] = useState(false);
   const [primaryOrGeneralSelected, setPrimaryOrGeneralSelected] = useState(false);
   const [primaryOrGeneral, setPrimaryOrGeneral] = useState(null);
+
+    // check to see if user came in via a direct state URL
+    useEffect(() => {
+      const currentPath = location.pathname;
+      if (currentPath.length <= 1 || selectedState){
+        return;
+      }
+      // refactor this so it's nicer in the future.
+      if (currentPath.includes('primary') || currentPath.includes('general')){
+        if (dropdownOptions.find(s => s.value === currentPath.slice(-2)) !== undefined){
+          setPrimaryOrGeneral(currentPath[1] === 'p' ? 'primary' : 'general');
+          setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
+          setPrimaryOrGeneralSelected(true);
+          setSelectedState(true);
+          setStateAbbr(dropdownOptions.find(s => s.value === currentPath.slice(-2)).value);
+        }
+      }        
+    }, [location, dropdownOptions, selectedState]);
 
   // Grab user location
   useEffect(() => {
@@ -24,7 +44,7 @@ const Suggestion = (props) => {
 
   // Convert location to a state
   useEffect(() => {
-    if (userCoords && userCoords.latitude) {
+    if (userCoords && userCoords.latitude && !selectedState) {
       const usState = reverse.lookup(userCoords.latitude, userCoords.longitude, 'us');
       setStateAbbr(usState.state_abbr);
       setSelectedState(true);
@@ -32,7 +52,14 @@ const Suggestion = (props) => {
       setPrimaryOrGeneral('primary');
       setPrimaryOrGeneralSelected(true);
     }
-  }, [userCoords, reverse])
+  }, [userCoords, reverse, selectedState]);
+
+  // handle redirect to state's page
+  useEffect(() => {
+    if (selectedState) {
+      navigate(`${primaryOrGeneral}/${stateAbbr}`);
+    }
+  }, [selectedState, stateAbbr, primaryOrGeneral, navigate]);
 
   const onDropdownChange = (state) => {
     setStateAbbr(state.value);
@@ -89,12 +116,20 @@ const Suggestion = (props) => {
           />
         </div>
       }
-      {selectedState &&
-        <Response
-          selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
-          primaryOrGeneral={primaryOrGeneral}
-        />
-      }
+      <Routes>
+        <Route path="general/:state" element={selectedState ?
+          <Response
+            selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
+            primaryOrGeneral={primaryOrGeneral}
+          /> : null
+        } />}
+        <Route path="primary/:state" element={selectedState ?
+          <Response
+            selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
+            primaryOrGeneral={primaryOrGeneral}
+          /> : null
+        } />}
+      </Routes>
     </div>
   );
 }
