@@ -33,7 +33,7 @@ const Suggestion = (props) => {
           setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
           setPrimaryOrGeneralSelected(true);
           setSelectedState(true);
-          setStateAbbr(dropdownOptions.find(s => s.value === currentPath.slice(-2)).value);
+          setStateAbbr(dropdownOptions.find(s => s.value === state).value);
         }
       }        
     }, [location, dropdownOptions, selectedState]);
