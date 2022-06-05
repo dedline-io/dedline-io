@@ -19,7 +19,6 @@ a:hover {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 1em;
   padding-left: 0.25em;
   padding-right: 0.25em;
 }
@@ -51,6 +50,12 @@ a:hover {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  margin-top: 42px;
+  font-size: 18px;
+  color: #7c7e8a;
 }
 
 
