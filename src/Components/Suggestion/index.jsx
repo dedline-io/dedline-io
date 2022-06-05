@@ -114,6 +114,7 @@ const Suggestion = (props) => {
             value={dropdownOptions.filter(option => option.value === stateAbbr)}
             onChange={value => onDropdownChange(value)}
             isSearchable={true}
+            autoFocus={false}
           />
         </div>
       }
