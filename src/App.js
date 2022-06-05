@@ -18,6 +18,10 @@ const App = () => {
           <Suggestion />
         </div>
       }
+      <div className="footer">
+      <img src="/github-logo.png" alt="github logo" height="18" /> {' '}Dedline.io is 
+      <a href="https://github.com/dedline-io/dedline-io"> open source!</a>
+      </div>
       </div>
   );
 }
