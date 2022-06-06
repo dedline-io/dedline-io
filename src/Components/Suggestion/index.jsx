@@ -49,9 +49,6 @@ const Suggestion = (props) => {
       const usState = reverse.lookup(userCoords.latitude, userCoords.longitude, 'us');
       setStateAbbr(usState.state_abbr);
       setSelectedState(true);
-      setButtonColor('primary-button');
-      setPrimaryOrGeneral('primary');
-      setPrimaryOrGeneralSelected(true);
     }
   }, [userCoords, reverse, selectedState]);
 
