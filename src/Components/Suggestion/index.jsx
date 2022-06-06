@@ -54,8 +54,11 @@ const Suggestion = (props) => {
 
   // handle redirect to state's page
   useEffect(() => {
-    if (selectedState) {
+    if (selectedState && primaryOrGeneralSelected) {
       navigate(`${primaryOrGeneral}/${stateAbbr}`);
+    }
+    else if (selectedState){
+      navigate(`${stateAbbr}`)
     }
   }, [selectedState, stateAbbr, primaryOrGeneral, navigate]);
 
