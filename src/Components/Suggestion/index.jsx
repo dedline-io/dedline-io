@@ -3,6 +3,7 @@ import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { geolocated } from 'react-geolocated';
 import Select from 'react-select';
 import { selectStyles } from '../../utils/styles';
+import moment from "moment";
 
 import Response from '../Response';
 
@@ -49,11 +50,31 @@ const Suggestion = (props) => {
       const usState = reverse.lookup(userCoords.latitude, userCoords.longitude, 'us');
       setStateAbbr(usState.state_abbr);
       setSelectedState(true);
-      setButtonColor('primary-button');
-      setPrimaryOrGeneral('primary');
+      if (dropdownOptions.find(s => s.value === usState.state_abbr)) { 
+        if (checkPrimaryDate(dropdownOptions.find(s => s.value === usState.state_abbr).primaryDate)) {
+          setButtonColor('primary-button');
+          setPrimaryOrGeneral('primary');
+          }
+        else {
+          setButtonColor('general-button');
+          setPrimaryOrGeneral('general');
+        }
+      } else {
+        setButtonColor('primary-button');
+        setPrimaryOrGeneral('primary');
+      }
       setPrimaryOrGeneralSelected(true);
+
+      function checkPrimaryDate(primaryDate) {
+        var now = moment();
+        var primary = moment(primaryDate, "YYYYMMDD");
+        if (primary.isAfter(now)) {return true;}
+        else {return false};
+
+      
     }
-  }, [userCoords, reverse, selectedState]);
+  }
+}, [userCoords, reverse, selectedState, dropdownOptions]);
 
   // handle redirect to state's page
   useEffect(() => {
@@ -123,13 +144,13 @@ const Suggestion = (props) => {
             selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
             primaryOrGeneral={primaryOrGeneral}
           /> : null
-        } />}
+        } />
         <Route path="primary/:state" element={selectedState ?
           <Response
             selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
             primaryOrGeneral={primaryOrGeneral}
           /> : null
-        } />}
+        } />
       </Routes>
     </div>
   );
