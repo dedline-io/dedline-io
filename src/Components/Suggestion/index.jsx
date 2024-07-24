@@ -30,7 +30,7 @@ const Suggestion = (props) => {
         const state = currentPath.slice(-2).toUpperCase();
         if (dropdownOptions.find(s => s.value === state) !== undefined){
           setPrimaryOrGeneral(currentPath[1] === 'p' ? 'primary' : 'general');
-          // setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
+          setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
           setPrimaryOrGeneralSelected(true);
           setSelectedState(true);
           setStateAbbr(dropdownOptions.find(s => s.value === state).value);
@@ -60,7 +60,7 @@ const Suggestion = (props) => {
     else if (selectedState){
       navigate(`${stateAbbr}`)
     }
-  }, [selectedState, stateAbbr, primaryOrGeneral, navigate]);
+  }, [selectedState, stateAbbr, primaryOrGeneral, primaryOrGeneralSelected, navigate]);
 
   const onDropdownChange = (state) => {
     setStateAbbr(state.value);
@@ -99,11 +99,11 @@ const Suggestion = (props) => {
     <div className="suggestion">
       <h1 className='header'><span role='img' aria-label='us-flag-emoji'>🇺🇸</span> 2024 Voter Registration Deadlines <span role='img' aria-label='us-flag-emoji'>🇺🇸</span></h1>
       <div className="vote-question">
-        How much time do I have to register to vote in:
-        {/* <div className='primary-or-general'>
+        How much time do I have to register to vote in the:
+        <div className='primary-or-general'>
           <button className='primary-button' onClick={onPrimaryClick}> Primary Election </button>
           <button className='general-button' onClick={onGeneralClick}> General Election </button>
-        </div> */}
+        </div>
       </div>
       {primaryOrGeneralSelected &&
         <div className='select'>

@@ -8,15 +8,17 @@ const Response = ({ selectedState, primaryOrGeneral }) => {
   let primaryDate;
   let primaryDeadline;
   let momentDeadlineDate;
+  let electionPassed;
   const currentSelectedState = selectedState[0];
   const currentDate = moment();
-
+ 
   if (selectedState.length > 0 && currentSelectedState.deadline) {
     momentDeadlineDate = moment(`${primaryOrGeneral === 'general' ? currentSelectedState.deadline : currentSelectedState.primaryDeadline}T235959`);
     primaryDate = primaryOrGeneral === 'primary' ? moment(`${currentSelectedState.primaryDate}T235959`).format('MMMM Do') : null;
     primaryDeadline = primaryOrGeneral === 'primary' ? moment(`${currentSelectedState.primaryDeadline}T235959`).format('MMMM Do') : null;
     howMuchTime = momentDeadlineDate.diff(currentDate, 'days');
     howMuchTimeSmaller = momentDeadlineDate.diff(currentDate);
+    electionPassed = currentDate > currentSelectedState.deadline;
   }
   return (
     <div className='response'>
@@ -44,10 +46,10 @@ const Response = ({ selectedState, primaryOrGeneral }) => {
       }
       <div className='response-url'>
         <div className='registration-details'>
-          {currentSelectedState && currentSelectedState.value === 'ND' ? " You don't have to register to vote. If you live in North Dakota, you're all set. Nice!" :
+          {currentSelectedState && currentSelectedState.value === 'ND' ? " You don't have to register to vote. If you live in North Dakota, you're all set to vote with a valid ID. Nice!" :
             (
               <>
-                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lastMinuteAccepted && "That deadline's passed! But you can still register in person on your voting day. Check the state link above or find details at your local polling place."}
+                {howMuchTimeSmaller < 0 && currentSelectedState && currentSelectedState.lastMinuteAccepted && !electionPassed && "That deadline's passed! But you can still register in person on your voting day. Check the state link above or find details at your local polling place."}
                 {howMuchTimeSmaller < 0 && currentSelectedState && !currentSelectedState.lastMinuteAccepted && (primaryDate ? "The deadline's passed - check to see if you can still register for the general election!" : "That deadline's passed - hope you registered!")}
                 <div className='last-day-announcement'>{howMuchTimeSmaller > 0 && howMuchTime === 0 && 'Today is the last day you can register!'}</div>
                 {howMuchTimeSmaller > 0 && howMuchTime >= 0 && currentSelectedState && currentSelectedState.onlineAccepted ? (
