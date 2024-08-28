@@ -3,21 +3,46 @@ import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { geolocated } from 'react-geolocated';
 import Select from 'react-select';
 import { selectStyles } from '../../utils/styles';
-
+import config from '../../config';
 import Response from '../Response';
-
 import './Suggestion.css';
 
 const Suggestion = (props) => {
   const reverse = require('reverse-geocode');
-  const dropdownOptions = require('../../states.json');
+  const [dropdownOptions, setDropdownOptions] = useState([]);
   const navigate = useNavigate();
   const location  = useLocation();
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [userCoords, setUserCoords] = useState(null);
   const [stateAbbr, setStateAbbr] = useState(null);
   const [selectedState, setSelectedState] = useState(false);
   const [primaryOrGeneralSelected, setPrimaryOrGeneralSelected] = useState(false);
   const [primaryOrGeneral, setPrimaryOrGeneral] = useState(null);
+
+  useEffect(() => {
+    const url = config.apiUrl;
+    console.log(url);
+
+      fetch(url)
+        .then((response) => {
+          console.log(response);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((jsonData) => {
+          const states = jsonData.states;
+          console.log(states);
+          setDropdownOptions(states);
+          setLoading(false);
+        })
+        .catch((error) => {
+          setError(error);
+          setLoading(false);
+        });
+  }, []); 
 
     // check to see if user came in via a direct state URL
     useEffect(() => {
@@ -28,7 +53,7 @@ const Suggestion = (props) => {
       // TODO: refactor this so it's nicer in the future.
       if (currentPath.includes('primary') || currentPath.includes('general')){
         const state = currentPath.slice(-2).toUpperCase();
-        if (dropdownOptions.find(s => s.value === state) !== undefined){
+        if (dropdownOptions && dropdownOptions.find(s => s.value === state) !== undefined){
           setPrimaryOrGeneral(currentPath[1] === 'p' ? 'primary' : 'general');
           setButtonColor(currentPath[1] === 'p' && currentPath.includes('primary') ? 'primary-button' : 'general-button');
           setPrimaryOrGeneralSelected(true);
@@ -73,8 +98,10 @@ const Suggestion = (props) => {
   }
 
   const setButtonColor = button => {
+    if (button && (button)[0].style){
     document.getElementsByClassName(button)[0].style.backgroundColor = '#5f9dbf';
     document.getElementsByClassName(button)[0].style.border = '3px solid white';
+    }
   }
 
   const onPrimaryClick = (el) => {
@@ -94,6 +121,15 @@ const Suggestion = (props) => {
     el.target.style.border = '3px solid white';
     el.target.style.color = 'white';
   };
+
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
 
   return (
     <div className="suggestion">

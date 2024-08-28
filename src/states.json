@@ -31,7 +31,8 @@
     "url": "https://azsos.gov/elections/voters",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "emoji": "☀️☀️☀️☀️☀️"
+    "emoji": "☀️☀️☀️☀️☀️",
+    "notes": "This year in AZ, you have to bring/show proof of citizenship if you're registering for the first time! A valid drivers license or passport for instance."
   },
   {
     "label": "Arkansas",
@@ -102,7 +103,7 @@
     "url": "https://www.dcboe.org/Voters/Register-To-Vote/Register-to-Vote",
     "onlineAccepted": true,
     "lastMinuteAccepted": true,
-    "notes": "In DC, you can pre-register to vote when you're 16 years old! (You can't vote in the 2020 election, but you'll be registered for 2022 and any upcoming elections!) DC is also one of three states that lets citizens vote from prison (and/or after serving their sentence)!",
+    "notes": "In DC, you can pre-register to vote when you're 16 years old! DC is also one of three states that lets citizens vote from prison (and/or after serving their sentence)!",
     "emoji": "🇺🇸🇺🇸🇺🇸🇺🇸🇺🇸"
   },
   {
@@ -470,7 +471,7 @@
     "url": "https://vote.sos.ri.gov/Voter/RegisterToVote",
     "onlineAccepted": true,
     "lastMinuteAccepted": false,
-    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2022 if you're under 18 by election day, you'll be set for the next election! Those convicted of felonies also get their voting rights restored after serving their sentence!",
+    "notes": "You can register to vote at the age of 16 in Rhode Island! While you can't vote in 2024 if you're under 18 by election day, you'll be set for the next election! Those convicted of felonies also get their voting rights restored after serving their sentence!",
     "emoji": "🎾🎾🎾🎾🎾"
   },
   {
