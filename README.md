@@ -5,7 +5,7 @@ This repo is for [Dedline.io](https://www.dedline.io), an open source applicatio
 ![dedline-io screenshot](https://i.ibb.co/BqvcwTB/Screen-Shot-2022-05-06-at-12-28-43-AM.png)
 
 
-All this code/info, including the [JSON file](https://github.com/jessicaonly/dedline-io/blob/main/src/states.json) that has all the 2022 voter registration deadlines (to my knowledge) is available for open source. My hope is that at least this data is helpful in getting the word out to get people registered to vote.
+All this code/info, including the [JSON file](https://github.com/dedline-io/dedline-api/blob/main/public/states.json) that has all the 2024 voter registration deadlines (to my knowledge) is available for open source. My hope is that at least this data is helpful in getting the word out to get people registered to vote.
 
 ## To run:
 
