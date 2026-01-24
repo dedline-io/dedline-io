@@ -41,7 +41,7 @@ const Response = ({ selectedState, primaryOrGeneral }) => {
       }
       {!primaryDate &&
         <div className='primary-sentence'>
-          The deadline to register to vote in {currentSelectedState.label} {howMuchTimeSmaller < 0 ? 'was' : 'is'} <span className='primary-date'>{momentDeadlineDate.format('MMMM Do')}</span>, for the election on <span className='primary-date'>{currentSelectedState.label === 'Louisiana' ? 'December 10th' : 'November 8th'}</span>.
+          The deadline to register to vote in {currentSelectedState.label} {howMuchTimeSmaller < 0 ? 'was' : 'is'} <span className='primary-date'>{momentDeadlineDate.format('MMMM Do')}</span>, for the election on <span className='primary-date'>{currentSelectedState.label === 'Louisiana' ? 'December 6th' : 'November 3rd'}</span>.
         </div>
       }
       <div className='response-url'>
@@ -72,9 +72,11 @@ const Response = ({ selectedState, primaryOrGeneral }) => {
               </>
             )}
         </div>
-        <div className='registration-notes'>
-          {currentSelectedState && currentSelectedState.notes}
-        </div>
+        {currentSelectedState && currentSelectedState.notes && (
+          <div className='registration-notes'>
+            {currentSelectedState.notes}
+          </div>
+        )}
       </div>
     </div>
   )

@@ -1,16 +1,19 @@
 body {
-  color: #d6eaf7;
-  background-color: #060e29;
-  font-size: 3em;
+  color: #f0f9ff;
+  background: linear-gradient(135deg, #0c1844 0%, #1e293b 100%);
+  min-height: 100vh;
+  font-size: 2.5em;
 }
 
 a {
   text-decoration: none;
-  color: #667ee8;
+  color: #60a5fa;
+  transition: color 0.3s ease;
+  font-weight: 600;
 }
 
 a:hover {
-  color: #fff;
+  color: #34d399;
 }
 
 .App {
@@ -19,12 +22,13 @@ a:hover {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+  padding: 0.5em 1em;
+  min-height: 100vh;
 }
 
 .voting-registration-question {
-  max-width: 98%;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .lds-dual-ring {
@@ -53,9 +57,15 @@ a:hover {
 }
 
 .footer {
-  margin-top: 42px;
-  font-size: 18px;
-  color: #7c7e8a;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #94a3b8;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.footer:hover {
+  opacity: 1;
 }
 
 
