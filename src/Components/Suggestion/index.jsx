@@ -133,7 +133,11 @@ const Suggestion = (props) => {
 
   return (
     <div className="suggestion">
-      <h1 className='header'><span role='img' aria-label='us-flag-emoji'>🇺🇸</span> 2024 Voter Registration Deadlines <span role='img' aria-label='us-flag-emoji'>🇺🇸</span></h1>
+      <h1 className='header'>
+        <span className='flag-emoji' role='img' aria-label='us-flag-emoji'>🇺🇸</span>
+        <span className='header-text'>2026 Voter Registration Deadlines</span>
+        <span className='flag-emoji' role='img' aria-label='us-flag-emoji'>🇺🇸</span>
+      </h1>
       <div className="vote-question">
         How much time do I have to register to vote in the:
         <div className='primary-or-general'>
@@ -142,15 +146,27 @@ const Suggestion = (props) => {
         </div>
       </div>
       {primaryOrGeneralSelected &&
-        <div className='select'>
-          <Select
-            styles={selectStyles}
-            placeholder={window.innerWidth > 640 ? 'Pick your state...' : 'States...'}
-            options={dropdownOptions}
-            value={dropdownOptions.filter(option => option.value === stateAbbr)}
-            onChange={value => onDropdownChange(value)}
-            isSearchable={false}
-          />
+        <div className='select-container'>
+          <div className='state-emoji-left'>
+            <span role='img' aria-label='emoji-representing-each-state'>
+              {stateAbbr && dropdownOptions.filter(option => option.value === stateAbbr)[0]?.emoji.substring(0, 2)}
+            </span>
+          </div>
+          <div className='select'>
+            <Select
+              styles={selectStyles}
+              placeholder={window.innerWidth > 640 ? 'Pick your state...' : 'States...'}
+              options={dropdownOptions}
+              value={dropdownOptions.filter(option => option.value === stateAbbr)}
+              onChange={value => onDropdownChange(value)}
+              isSearchable={false}
+            />
+          </div>
+          <div className='state-emoji-right'>
+            <span role='img' aria-label='emoji-representing-each-state'>
+              {stateAbbr && dropdownOptions.filter(option => option.value === stateAbbr)[0]?.emoji.substring(0, 2)}
+            </span>
+          </div>
         </div>
       }
       <Routes>
@@ -159,13 +175,13 @@ const Suggestion = (props) => {
             selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
             primaryOrGeneral={primaryOrGeneral}
           /> : null
-        } />}
+        } />
         <Route path="primary/:state" element={selectedState ?
           <Response
             selectedState={dropdownOptions.filter(option => option.value === stateAbbr)}
             primaryOrGeneral={primaryOrGeneral}
           /> : null
-        } />}
+        } />
       </Routes>
     </div>
   );

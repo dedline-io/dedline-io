@@ -1,51 +1,75 @@
 .days-left-text {
-  font-size: 2em;
-  color: #5acfd3;
+  font-size: 1.4em;
+  font-weight: 700;
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0.3em 0;
 }
 
 .state-emoji {
-  padding-top: 15px;
-  letter-spacing: 0.3em;
+  padding: 10px 0;
+  letter-spacing: 0.4em;
+  font-size: 1.1em;
+  display: none;
 }
 
-
 .registration-details {
-  font-size: 0.75em;
+  font-size: 0.6em;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .second-message {
   padding-top: 15px;
-  font-size: 0.75em;
+  font-size: 0.6em;
+  line-height: 1.5;
 }
 
 .registration-notes {
-  font-size: 0.5em;
-  padding-top: 10px;
+  font-size: 0.45em;
+  margin-top: 30px;
+  line-height: 1.5;
+  color: #cbd5e1;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(52, 211, 153, 0.1);
+  padding: 15px 20px;
+  border-radius: 8px;
+  border-left: 3px solid #10b981;
 }
 
 .hurry-announcement {
   padding-top: 15px;
+  font-size: 1.1em;
 }
 
-.urgent { 
-  color: #ce1212;
-  font-weight: 600;
+.urgent {
+  color: #fb7185;
+  font-weight: 700;
   animation: blinker 1s linear infinite;
   animation-iteration-count: 2;
+  text-shadow: 0 0 10px rgba(251, 113, 133, 0.6);
 }
 
 .last-day-announcement {
-  color: #ce1212;
+  color: #fbbf24;
+  font-weight: 600;
 }
 
 .primary-date {
-  color: #cdd35a;
+  color: #fde047;
+  font-weight: 700;
 }
 
 .primary-sentence {
-  margin: 10px;
-  font-size: 0.75em;
+  margin: 10px 0;
+  font-size: 0.6em;
   padding-bottom: 10px;
+  line-height: 1.5;
 }
 
 @keyframes blinker {
