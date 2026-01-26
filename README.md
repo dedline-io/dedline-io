@@ -5,7 +5,24 @@ This repo is for [Dedline.io](https://www.dedline.io), an open source applicatio
 ![dedline-io screenshot](https://i.ibb.co/BqvcwTB/Screen-Shot-2022-05-06-at-12-28-43-AM.png)
 
 
-All this code/info, including the [JSON file](https://github.com/dedline-io/dedline-api/blob/main/public/states.json) that has all the 2024 voter registration deadlines (to my knowledge) is available for open source. My hope is that at least this data is helpful in getting the word out to get people registered to vote.
+All this code/info, including the [JSON file](https://github.com/dedline-io/dedline-api/blob/main/public/states.json) that has all the 2026 voter registration deadlines (to my knowledge) is available for open source. My hope is that at least this data is helpful in getting the word out to get people registered to vote.
+
+## 🎨 Embeddable Widgets
+
+Want to add voter registration deadlines to your website? Dedline.io provides free, embeddable widgets for all 50 states!
+
+### Quick Example
+```html
+<iframe src="https://dedline.io/widget/ca" width="100%" height="500"></iframe>
+```
+
+**[📖 View Full Widget Documentation →](WIDGET_DOCS.md)**
+
+Available in two versions:
+- **Standard Widget** - Full-featured vertical layout
+- **Compact Widget** (`?compact=true`) - Horizontal banner-style layout
+
+Perfect for news sites, community organizations, campaigns, and anyone who wants to help people register to vote!
 
 ## To run:
 
