@@ -159,11 +159,11 @@ const Widget = () => {
       <div className="widget-info">
         <div className="info-row">
           <span className="info-label">Registration Deadline:</span>
-          <span className="info-value">{momentDeadlineDate.format('MMMM Do, YYYY')}</span>
+          <span className="info-value">{momentDeadlineDate.format('MMM D, YYYY')}</span>
         </div>
         <div className="info-row">
           <span className="info-label">Election Date:</span>
-          <span className="info-value">{moment(`${electionDate}T235959`).format('MMMM Do, YYYY')}</span>
+          <span className="info-value">{moment(`${electionDate}T235959`).format('MMM D, YYYY')}</span>
         </div>
       </div>
 
