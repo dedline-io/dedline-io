@@ -106,11 +106,13 @@
 }
 
 .info-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 12px;
   padding: 10px 0;
   border-bottom: 1px solid rgba(148, 163, 184, 0.2);
-  font-size: 0.9em;
+  font-size: 0.8em;
+  align-items: start;
 }
 
 .info-row:last-child {
@@ -120,11 +122,14 @@
 .info-label {
   color: #94a3b8;
   font-weight: 500;
+  line-height: 1.3;
 }
 
 .info-value {
   color: #f0f9ff;
   font-weight: 700;
+  line-height: 1.3;
+  text-align: right;
 }
 
 .widget-button {
