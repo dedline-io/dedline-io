@@ -35,6 +35,9 @@ Add this iframe code to your HTML:
 
 ### Standard Widget
 
+<img width="534" height="859" alt="Screenshot 2026-01-26 at 7 15 07 PM" src="https://github.com/user-attachments/assets/b48b371f-7ef9-42fe-8f07-7f1daf33c25d" />
+
+
 **URL Format:** `/widget/{state}`
 
 **Example:** `https://dedline.io/widget/ca`
@@ -55,6 +58,7 @@ Add this iframe code to your HTML:
 - Mobile-friendly layouts
 
 ### Compact Widget
+<img width="804" height="193" alt="Screenshot 2026-01-26 at 7 15 41 PM" src="https://github.com/user-attachments/assets/24c2a357-fcd8-4f7e-953f-bf0a11477c74" />
 
 **URL Format:** `/widget/{state}?compact=true`
 
