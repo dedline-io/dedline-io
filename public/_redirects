@@ -1,1 +1,12 @@
-/*    /index.html    200
+# Scanner probes: return a real 404 instead of the SPA shell.
+# Netlify matches top-to-bottom and the first match wins, so these
+# must stay ABOVE the catch-all.
+/.env*            /404.html    404
+/.git/*           /404.html    404
+/wp-*             /404.html    404
+/xmlrpc.php       /404.html    404
+/vendor/*         /404.html    404
+/blog/*           /404.html    404
+
+# SPA fallback: every real route renders the React app.
+/*                /index.html  200
